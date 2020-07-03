@@ -16,7 +16,7 @@
     =render @messages
   .form
     = form_for [@group, @message] do |f|
-      = f.text_field :content, class: 'input-box', placeholder: "type a message"
+      = f.text_field :content, class: 'input-box__text', placeholder: "type a message"
       .form__input-box
         = f.label :image, class: 'input-box__image' do
           = icon("fas","image", class: 'icon')
