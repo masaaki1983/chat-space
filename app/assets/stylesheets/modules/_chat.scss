@@ -73,16 +73,15 @@
     form {
     display: flex;
     position: relative;
+    width: 100%;
       .input-box {
-        display: flex;
         border: none;
         height: 50px;
-        width: 100%;
         &__text {
           height: 50px;
-          width: 100%;
           border-style: none;
           padding: 0 40px 0 10px;
+          width: 100%;
         }
         &__image {
           position: absolute;
